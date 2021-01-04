@@ -1,5 +1,5 @@
 # Viewing Topic Status
 
-```bash
+```python
 bin/kafka-topics.sh --describe -- topic myTopic --zookeeper localhost:2181
 ```
