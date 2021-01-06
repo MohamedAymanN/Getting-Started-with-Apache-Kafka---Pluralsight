@@ -10,7 +10,7 @@ bin/kafka-server-start.sh config/server.properties
 bin/zookeeper-server-start.sh config/zookeeper.properties
 ```
 
-# Creating a topc
+# Creating a topic
 ```console
 bin/kafka-topics.sh --create --topic topicName --zookeeper localhost:2181 --replication-factor 1 --partitions 1
 ```
